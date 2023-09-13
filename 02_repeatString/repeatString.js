@@ -4,7 +4,12 @@ let output = '';
 for (let i = 0; i < num; i++){  
     output += string;
 }
-return output;
+    if (num < 0){
+        return "ERROR"
+    }
+    else{
+    return output;
+    }
 };
 
 // Do not edit below this line
